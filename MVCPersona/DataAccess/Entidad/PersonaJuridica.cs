@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.clases
 {
-    public class PersonaJuridica
+    public class PersonaJuridica:Persona
     {
         public string ruc { get; set; }
         public string urlPaginaWeb { get; set; }
