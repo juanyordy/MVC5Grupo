@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.clases
 {
-    public class PersonaNatural
+    public class PersonaNatural:Persona
     {
         public string apellido { get; set; }
         public string dni { get; set; }
